@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fast-api pydantic hide_input_in_errors bug"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+authors = ["progsmile"]
+
+[tool.poetry.dependencies]
+fastapi = "~=0.101.0"
+pydantic = "~=2.1.1"
+pydantic-settings= "~=2.0.2"
+python = "^3.10"
+uvicorn = "~=0.23.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
